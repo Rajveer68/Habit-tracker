@@ -1,0 +1,29 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habit Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Habit Tracker</h1>
+        
+        <div class="habit-form">
+            <input type="text" id="habitInput" placeholder="Add a new habit...">
+            <button onclick="addHabit()">Add</button>
+        </div>
+
+        <div class="habit-list" id="habitList"></div>
+
+        <div class="stats">
+            <h2>Stats</h2>
+            <p>Total Habits: <span id="totalHabits">0</span></p>
+            <p>Completed Today: <span id="completedToday">0</span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
